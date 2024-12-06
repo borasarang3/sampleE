@@ -12,6 +12,7 @@ public class YrController {
 
 
         log.info("처음 수정했어요");
+        log.info("처음 글로벌유저네임 변경");
 
 
         return "yr/list";

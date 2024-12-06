@@ -39,7 +39,7 @@ public class BrController {
     public String brRegisterPost(BrDTO brDTO) {
         brService.register(brDTO);
 
-        return "br/list";
+        return "redirect:/br/list";
     }
 
 }

@@ -16,4 +16,12 @@ public class yuhController {
         return "yuh/list";
     }
 
+    @GetMapping("/yuh/read")
+    public String read(){
+
+        return "yuh/read";
+    }
+
+
+
 }

@@ -17,5 +17,13 @@ public class YrController {
 
         return "yr/list";
     }
+    @GetMapping("/yr/register")
+    public String register(){
+
+
+        log.info("글로벌 네임 확인용");
+
+        return "yr/list";
+    }
 
 }
